@@ -19,7 +19,7 @@ public class XenogenesNotBodyMod : Mod
     }
 
     private static void HarmonyPatches() {
-        Harmony harmony = new Harmony("Hali.LookChangeWhenever");
+        Harmony harmony = new Harmony("Hali.XenoNotBodyMod");
         harmony.PatchAll();
     }
 }
